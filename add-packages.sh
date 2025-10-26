@@ -1,5 +1,7 @@
 #!/bin/sh
 
+rm gdl-packages.*
+
 repo-add gdl-packages.db.tar.zst ./*.pkg.tar.zst
 
 mv gdl-packages.db.tar.zst gdl-packages.db
